@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page </title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="login-container">
+        <h2>Sign In</h2>
+        <p>Login here!!</p>
+        <form>
+            <label for="email">Email/Mobile Number*</label>
+            <input type="text" id="email" placeholder="Email/Mobile Number" required>
+
+            <label for="password">Password*</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="toggle-password">
+                    <i class="fas fa-eye-slash"></i>
+                </span>
+
+            </div>    
+            <div class="links">
+                <a href="#" class="register">Register</a>
+                <a href="#" class="forgot-password">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login-btn">LOGIN</button>
+
+            <p class="or-text">or</p>
+            <p class="otp-login">LOGIN WITH OTP / GUEST</p>
+
+            <p class="terms">
+                Upon login, I agree to <a href="#">Privacy Policy</a> & <a href="#">Terms</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
